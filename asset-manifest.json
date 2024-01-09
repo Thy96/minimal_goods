@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/minimal_goods/static/css/main.45746f62.css",
+    "main.js": "/minimal_goods/static/js/main.f3fa9af2.js",
+    "static/js/787.8f92758a.chunk.js": "/minimal_goods/static/js/787.8f92758a.chunk.js",
+    "index.html": "/minimal_goods/index.html",
+    "main.45746f62.css.map": "/minimal_goods/static/css/main.45746f62.css.map",
+    "main.f3fa9af2.js.map": "/minimal_goods/static/js/main.f3fa9af2.js.map",
+    "787.8f92758a.chunk.js.map": "/minimal_goods/static/js/787.8f92758a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45746f62.css",
+    "static/js/main.f3fa9af2.js"
+  ]
+}
