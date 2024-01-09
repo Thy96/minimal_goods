@@ -193,7 +193,7 @@ function App() {
                                         </a>
                                     </div>
                                     <div className="nav_side is--right">
-                                        <p className="nav_link-text">(2021), All rights reserved</p>
+                                        <p className="nav_link-text">(2021)</p>
                                     </div>
                                 </div>
                             </div>
