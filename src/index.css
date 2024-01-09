@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+::selection {
+  background: #000000;
+  color: #FFFFFF;
+  text-shadow: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --main-light-color: #e8e2da;
+  --main-dark-color: #2e2a27;
+}
+
+
+a {
+  color: inherit;
+}
+
+.grid_item:nth-child(6n+1) {
+  width: 25%;
+  margin-right: 6.25%;
+}
+
+.grid_item:nth-child(6n+2) {
+  width: 18.75%;
+  margin-right: 6.25%;
+  margin-top: 20%;
+}
+
+.grid_item:nth-child(6n+3) {
+  width: 12.5%;
+  margin-top: 4%;
+}
+
+.grid_item:nth-child(6n+4) {
+  width: 31.25%;
+  margin-top: 24%;
+}
+
+.grid_item:nth-child(6n+5) {
+  width: 31.25%;
+  margin-right: 6.25%;
+  margin-top: -12%;
+}
+
+.grid_item:nth-child(6n+6) {
+  width: 25%;
+  margin-right: 25%;
+  margin-top: -8%;
+}
+
+body * {
+  border-color: currentColor !important;
+}
+
+.grid_text-item {
+  pointer-events: none;
+}
+
+.grid_text-item.is--active {
+  opacity: 1.0;
 }
