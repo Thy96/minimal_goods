@@ -2,7 +2,7 @@
   "name": "minimal-goods",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://iamPhong.github.io/minimal_goods",
+  "homepage": "http://thy96.github.io/minimal_goods/",
   "dependencies": {
     "@gsap/react": "^2.0.2",
     "@testing-library/jest-dom": "^5.17.0",
